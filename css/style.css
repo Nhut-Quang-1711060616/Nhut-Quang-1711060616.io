@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #4BBCCB;
+}
+a:hover{
+    color: #E4F46C;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.p{
+    font-size: 18px;
+}
+/*Menu*/
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin: 0px 15px -20px;
+}
+.menu img:hover{
+    opacity: 0;
+}
+/*clice*/
+.clice{
+    position: relative;
+}
+.clice img{
+    width: 1200px;
+    height: 500px;
+}
+.clice .left{
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.clice .left h2{
+    font-size: 80px;
+    color: red;
+}
+.left p{
+    margin-top: 20px;
+    color: blanchedalmond;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: royalblue;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.clice .right{
+    position: absolute;
+    bottom: 40px;
+    right: 90px;
+}
+.hidden{
+    background-color:black;
+    color: #fff;
+    margin-right: 30px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
