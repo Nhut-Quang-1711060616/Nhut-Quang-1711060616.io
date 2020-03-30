@@ -57,18 +57,17 @@ a:hover{
 }
 .btn{
     padding: 15px 55px;
-    background-color: royalblue;
+    background-color: #758db3;
     border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     text-transform: uppercase;
     cursor: pointer;
     border: none;
     margin-top: 20px;
+}
+.btn:hover{
+    background-color: #464444;
 }
 .clice .right{
     position: absolute;
@@ -76,10 +75,13 @@ a:hover{
     right: 90px;
 }
 .hidden{
-    background-color:black;
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
     margin-right: 30px;
     border: none;
     font-size: 40px;
     cursor: pointer;
+}
+.hidden:hover{
+    color: #464444;
 }
